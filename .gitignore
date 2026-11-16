@@ -1,0 +1,22 @@
+# Xcode 用户/构建产物
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.hmap
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+
+# 系统
+.DS_Store

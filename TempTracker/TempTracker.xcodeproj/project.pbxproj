@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0000000000000000000001 /* TempTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000001 /* TempTrackerApp.swift */; };
+		BF0000000000000000000002 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000002 /* DateExtensions.swift */; };
+		BF0000000000000000000003 /* DayRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000003 /* DayRecord.swift */; };
+		BF0000000000000000000004 /* CycleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000004 /* CycleStore.swift */; };
+		BF0000000000000000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000005 /* ContentView.swift */; };
+		BF0000000000000000000006 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000006 /* RecordView.swift */; };
+		BF0000000000000000000007 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000007 /* StatisticsView.swift */; };
+		BF0000000000000000000008 /* TemperatureChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000008 /* TemperatureChart.swift */; };
+		BF0000000000000000000009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000010 /* AppDelegate.swift */; };
+		BF0000000000000000000010 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000011 /* ChartDetailView.swift */; };
+		BF0000000000000000000011 /* EditRecordSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000012 /* EditRecordSheet.swift */; };
+		BF0000000000000000000012 /* TemperatureTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000013 /* TemperatureTimerView.swift */; };
+		BF0000000000000000000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000014 /* SettingsView.swift */; };
+		BF0000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR0000000000000000000015 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FR0000000000000000000001 /* TempTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempTrackerApp.swift; sourceTree = "<group>"; };
+		FR0000000000000000000002 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		FR0000000000000000000003 /* DayRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRecord.swift; sourceTree = "<group>"; };
+		FR0000000000000000000004 /* CycleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleStore.swift; sourceTree = "<group>"; };
+		FR0000000000000000000005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000006 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000007 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000008 /* TemperatureChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureChart.swift; sourceTree = "<group>"; };
+		FR0000000000000000000009 /* TempTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR0000000000000000000010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FR0000000000000000000011 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000012 /* EditRecordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordSheet.swift; sourceTree = "<group>"; };
+		FR0000000000000000000013 /* TemperatureTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTimerView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FR0000000000000000000015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BP0000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GR0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				GR0000000000000000000002 /* TempTracker */,
+				FR0000000000000000000015 /* Assets.xcassets */,
+				GR0000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GR0000000000000000000002 /* TempTracker */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000001 /* TempTrackerApp.swift */,
+				FR0000000000000000000010 /* AppDelegate.swift */,
+				GR0000000000000000000003 /* Models */,
+				GR0000000000000000000004 /* Views */,
+			);
+			path = TempTracker;
+			sourceTree = "<group>";
+		};
+		GR0000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000002 /* DateExtensions.swift */,
+				FR0000000000000000000003 /* DayRecord.swift */,
+				FR0000000000000000000004 /* CycleStore.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GR0000000000000000000004 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000005 /* ContentView.swift */,
+				FR0000000000000000000006 /* RecordView.swift */,
+				FR0000000000000000000007 /* StatisticsView.swift */,
+				FR0000000000000000000008 /* TemperatureChart.swift */,
+				FR0000000000000000000011 /* ChartDetailView.swift */,
+				FR0000000000000000000012 /* EditRecordSheet.swift */,
+				FR0000000000000000000013 /* TemperatureTimerView.swift */,
+				FR0000000000000000000014 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		GR0000000000000000000005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FR0000000000000000000009 /* TempTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TG0000000000000000000001 /* TempTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CL0000000000000000000002 /* Build configuration list for PBXNativeTarget "TempTracker" */;
+			buildPhases = (
+				BP0000000000000000000001 /* Sources */,
+				BP0000000000000000000002 /* Frameworks */,
+				BP0000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempTracker;
+			productName = TempTracker;
+			productReference = FR0000000000000000000009 /* TempTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PJ0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					TG0000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = CL0000000000000000000001 /* Build configuration list for PBXProject "TempTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GR0000000000000000000001;
+			productRefGroup = GR0000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TG0000000000000000000001 /* TempTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BP0000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0000000000000000000014 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BP0000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0000000000000000000001 /* TempTrackerApp.swift in Sources */,
+				BF0000000000000000000002 /* DateExtensions.swift in Sources */,
+				BF0000000000000000000003 /* DayRecord.swift in Sources */,
+				BF0000000000000000000004 /* CycleStore.swift in Sources */,
+				BF0000000000000000000005 /* ContentView.swift in Sources */,
+				BF0000000000000000000006 /* RecordView.swift in Sources */,
+				BF0000000000000000000007 /* StatisticsView.swift in Sources */,
+				BF0000000000000000000008 /* TemperatureChart.swift in Sources */,
+				BF0000000000000000000009 /* AppDelegate.swift in Sources */,
+				BF0000000000000000000010 /* ChartDetailView.swift in Sources */,
+				BF0000000000000000000011 /* EditRecordSheet.swift in Sources */,
+				BF0000000000000000000012 /* TemperatureTimerView.swift in Sources */,
+				BF0000000000000000000013 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC0000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BC0000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC0000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TempTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC0000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TempTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CL0000000000000000000001 /* Build configuration list for PBXProject "TempTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0000000000000000000001 /* Debug */,
+				BC0000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CL0000000000000000000002 /* Build configuration list for PBXNativeTarget "TempTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC0000000000000000000003 /* Debug */,
+				BC0000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PJ0000000000000000000001 /* Project object */;
+}
